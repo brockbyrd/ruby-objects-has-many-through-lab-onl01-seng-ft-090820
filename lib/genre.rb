@@ -15,10 +15,11 @@ class Genre
   end
 
   def songs
+    
   end
 
   def artists
-    songs.map {|name| name.artist}
+    songs.map {|song| song.artist}
   end
 
   def self.all
