@@ -8,10 +8,6 @@ class Doctor
     @@all << self
   end
 
-  def new
-
-  end
-
   def appointments
 
   end
