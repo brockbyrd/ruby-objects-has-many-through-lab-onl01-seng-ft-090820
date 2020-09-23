@@ -7,6 +7,7 @@ class Genre
     @name = name
     @@all << self
   end
+
   def artists
 
   end
