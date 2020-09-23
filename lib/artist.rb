@@ -19,7 +19,10 @@ class Artist
   end
 
   def genres
-    Meal.genre.all
+    Song.all.select do |genre|
+      song.genre == self
+    end
+    
   end
 
   def self.all
