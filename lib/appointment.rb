@@ -10,11 +10,6 @@ class Appointment
     @@all << self
   end
 
-  def new(date, patient, doctor)
-
-    @@all << self
-  end
-
   def patient
 
   end
