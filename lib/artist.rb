@@ -19,7 +19,7 @@ class Artist
   end
 
   def genres
-
+    Meal.genre.all
   end
 
   def self.all
